@@ -23,7 +23,7 @@
         {
             unset($_SESSION['email_cpf']);
             unset($_SESSION['senha']);
-            //header('Location: login.php');
+            header('Location: login.php');
         } 
         else{
             $_SESSION['email_cpf'] = $email_cpf;

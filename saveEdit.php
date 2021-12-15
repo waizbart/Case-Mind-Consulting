@@ -29,5 +29,6 @@
         {
             header('Location: tela_admin.php');
         }
+    }
 
 ?>

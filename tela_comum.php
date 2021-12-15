@@ -25,9 +25,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <title>SISTEMA EMPRESA</title>
     <style>
+        html{
+            height: 100%;
+        }
         body{
             font-family: 'Montserrat', sans-serif;
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background: linear-gradient(#141e30, #243b55);
             color: white;
             text-align: center;
         }
@@ -105,6 +108,9 @@
                 ?>
             </tbody>
         </table>
+    </div>
+    <div class="copyright py-4 text-center text-white">
+            <div class="container"><small>Copyright &copy; Guilherme Waizbart 2021</small></div>
     </div>
 </body>
 </html>

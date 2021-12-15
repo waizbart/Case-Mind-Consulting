@@ -7,11 +7,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <title>Login</title>
     <style>
+        html{
+            height: 100%;
+        }
         body{
             font-family: 'Montserrat', sans-serif;
-            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background-image: linear-gradient(#141e30, #243b55);
         }
-        div{
+        .box{
             background-color: rgba(0, 0, 0, 0.6);
             position: absolute;
             top: 50%;
@@ -23,14 +26,14 @@
             color: #fff;
         }
         fieldset{
-            border: 5px solid dodgerblue;
+            border: 5px inset #03e9f4;
             padding: 50px;
         }
         legend{
-            border: 1px solid dodgerblue;
+            border: 1px solid #03e9f4;
             padding: 10px;
             text-align: center;
-            background-color: dodgerblue;
+            background: linear-gradient(to right, #03e9f4, #016469);
             border-radius: 8px;
         }
         input{
@@ -41,7 +44,7 @@
             font-size: 15px;
         }
         .inputSubmit{
-            background-color: dodgerblue;
+            background-image: linear-gradient(to right, #03e9f4, #016469);
             border: none;
             padding: 15px;
             width: 100%;
@@ -50,7 +53,7 @@
             font-size: 15px;      
         }
         .inputSubmit:hover{
-            background-color: deepskyblue;
+            background: #016469;
             cursor: pointer;
         }
         a{
@@ -63,14 +66,19 @@
             margin: 10px;
         }
         a:hover{
-            background: linear-gradient(to right, white, dodgerblue);
+            background: linear-gradient(to right, #03e9f4, #016469);
             cursor: pointer;
+        }
+        .copy{
+            color: white;
+            text-align: center;
+            transform: translate(0, 3000%);
         }
     </style>
 </head>
 <body>
     <a href="home.php">Voltar</a>
-    <div>
+    <div class="box">
         <fieldset>
             <legend>Login</legend>
             <form action="testLogin.php" method="POST">
@@ -81,6 +89,9 @@
                 <input class="inputSubmit" type="submit" name="submit" value="Enviar">
             </form>
         </fieldset>
+    </div>
+    <div class="copy">
+        <small>Copyright &copy; Guilherme Waizbart 2021</small>
     </div>
 </body>
 </html>

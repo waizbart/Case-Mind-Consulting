@@ -40,9 +40,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400&display=swap" rel="stylesheet">
     <title>Cadastro de cliente</title>
     <style>
+        html{
+            height: 100%;
+        }
         body{
             font-family: 'Montserrat', sans-serif;
-            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background-image: linear-gradient(#141e30, #243b55);
         }
         .box{
             color: white;
@@ -56,13 +59,13 @@
             width: 30%;
         }
         fieldset{
-            border: 3px solid dodgerblue;
+            border: 3px inset #03e9f4;
         }
         legend{
-            border: 1px solid dodgerblue;
+            border: 1px solid #03e9f4;
             padding: 10px;
             text-align: center;
-            background-color: dodgerblue;
+            background: linear-gradient(to right, #03e9f4, #016469);
             border-radius: 8px;
         }
         .inputBox{
@@ -89,7 +92,7 @@
         .inputUser:valid ~ .labelInput{
             top: -20px;
             font-size: 12px;
-            color: dodgerblue;
+            color: #03e9f4;
         }
         #data_nascimento{
             border: none;
@@ -99,7 +102,7 @@
             font-size: 15px;
         }
         #submit{
-            background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+            background-image: linear-gradient(to right, #03e9f4, #016469);
             width: 100%;
             border: none;
             padding: 15px;
@@ -109,7 +112,7 @@
             border-radius: 10px;
         }
         #submit:hover{
-            background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+            background: #016469;
         }
         a{
             position: absolute;
@@ -121,7 +124,7 @@
             margin: 10px;
         }
         a:hover{
-            background: linear-gradient(to right, white, dodgerblue);
+            background: linear-gradient(to right, #03e9f4, #016469);
             cursor: pointer;
         }
     </style>
