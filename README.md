@@ -1,4 +1,4 @@
-# Case-Mind-Consulting
+# Case-Mind-Consulting [APROVADO]
 Processo seletivo 2021
 ## Introdução 
 Essa página web foi feita como uma parte do processo seletivo para estágio da empresa Mind Consulting cujo objetivo era desenvolver um sistema que possibilite uma empresa e seus clientes gerenciarem seus dados.
